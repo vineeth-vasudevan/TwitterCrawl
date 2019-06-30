@@ -7,7 +7,8 @@ import twitter4j.TwitterFactory;
 import twitter4j.conf.ConfigurationBuilder;
 
 /**
- * Hello world!
+ * 
+ * @author Vineeth Vasudevan
  *
  */
 public class Craweller 
@@ -24,8 +25,8 @@ public class Craweller
     	Twitter twitter = tf.getInstance();
     	
     	 try {
-			Status status = twitter.updateStatus("#Test Tweet");
-			System.out.println(status.getCurrentUserRetweetId());
+			Status status = twitter.updateStatus("This is a test tweet");
+			System.out.println(status.getUser());
 		} catch (TwitterException e) {
 			e.printStackTrace();
 		}
