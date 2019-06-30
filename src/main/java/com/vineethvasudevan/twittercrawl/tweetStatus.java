@@ -25,7 +25,7 @@ public class tweetStatus
     	Twitter twitter = tf.getInstance();
     	
     	 try {
-			Status status = twitter.updateStatus("This is a test tweet");
+			Status status = twitter.updateStatus("This is a Test Tweet from the API");
 			System.out.println(status.getUser());
 		} catch (TwitterException e) {
 			e.printStackTrace();
