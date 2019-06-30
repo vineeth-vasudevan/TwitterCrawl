@@ -25,6 +25,7 @@ public class Craweller
     	
     	 try {
 			Status status = twitter.updateStatus("#Test Tweet");
+			System.out.println(status.getCurrentUserRetweetId());
 		} catch (TwitterException e) {
 			e.printStackTrace();
 		}
