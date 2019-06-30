@@ -15,6 +15,7 @@ public class tweetStatus
 {
     public static void main( String[] args )
     {
+    	//Auth credentials
     	ConfigurationBuilder cb = new ConfigurationBuilder();
     	cb.setDebugEnabled(true)
     	  .setOAuthConsumerKey("")
