@@ -11,7 +11,7 @@ import twitter4j.conf.ConfigurationBuilder;
  * @author Vineeth Vasudevan
  *
  */
-public class Craweller 
+public class tweetStatus 
 {
     public static void main( String[] args )
     {
